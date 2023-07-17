@@ -1,0 +1,99 @@
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #801482; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    height: 45px;
+    width: 45px;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.ftco-section {
+    padding: 7em 0;
+}
+
+.wrapper .info-wrap{
+    width: 100%;
+    -webkit-box-shadow: 0px 25px 45px -15px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 25px 45px -15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 25px 45px -15px rgba(0, 0, 0, 0.3);
+}
+
+.contact-wrap {
+    background: #fff;
+    border-top: 5px solid #801482;
+    border-bottom: 5px solid #801482;
+    border-left: 5px solid #801482;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.info-wrap h3 {
+    color: #fff;
+}
+
+.info-wrap{
+    border-top:5px solid #801482;
+    border-bottom: 5px solid #801482;
+    border-right: 5px solid #801482;
+    border-radius: 10px !important;
+}
+
+.info-wrap .dbox {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 25px;
+}
+
+.info-wrap .dbox:last-child {
+    margin-bottom: 0;
+}
+
+.info-wrap .dbox p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.info-wrap .dbox p span {
+    font-weight: 600;
+    color: #fff;
+}
+
+.info-wrap .dbox p a {
+    color: #fff;
+}
+
+.info-wrap .dbox .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.info-wrap .dbox .icon span {
+    font-size: 20px;
+    color: #fff;
+}
+
+.info-wrap .dbox .text {
+    width: calc(100% - 50px);
+}
+
+@media (min-width: 992px) {
+    .info-wrap {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        border-radius: 5px;
+    }
+}
